@@ -9,6 +9,14 @@ public class B extends A {
     System.out.println("subtarction is:"+ f);
 	return f;
 	}
+	int a=20;
+	int b=100;
+	int subtraction(int f) 
+	{
+	f=a*b; 
+    System.out.println("subtarction is:"+ f);
+	return f;
+	}
 public static void main(String[] args) {
     int p=0;
     B b=new B();
